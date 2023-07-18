@@ -1,0 +1,138 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Caveat', cursive;
+}
+header{
+    box-shadow: 2px 0 3px 2px rgb(58, 2, 58);
+    z-index: 1;
+    background-color: rgb(129, 70, 185);
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    padding-top:20px ;
+    
+}
+
+nav ul li{
+    padding: 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+}
+a{  
+    color: aliceblue;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Dancing Script', cursive;
+    font-size: 35px;
+    padding-left: 25px;
+    color: aliceblue;   
+}
+main{
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    background:url(Images/cielo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo{
+    font-size: 35px;
+    color: aliceblue;
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 100px;
+    width: 100%;
+    height:300px;
+}
+
+.axo1{
+    width: 100%;
+    height: 250px;
+}
+.axolote1{
+    margin-top: 20px;
+    margin-left: 20%;
+    width: 280px;
+}
+.imagenes{
+    padding: 20px;
+    background-image: radial-gradient(circle at 87.5% 12.5%, #c663ad 0, #b759af 16.67%, #a550b0 33.33%, #8f47b2 50%, #7440b4 66.67%, #533cb6 83.33%, #143ab8 100%);
+    width: auto;
+    height: 700px;
+}
+.galeria{
+    display: flex;
+    justify-content: space-around;
+}
+.galeria img{
+    margin-left: 20px;
+    width: 350px;
+    height: 500px;
+}
+
+h3{
+    padding:  20px;
+    padding-bottom: 25px;
+    text-align: center;
+    font-size: 40px;
+    color: aliceblue;
+
+}
+.videos{
+    
+    background-color: #533cb6;
+}
+.Youtube{
+    padding: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+footer{
+    background-color: #9f51fd;
+    font-size: 35px;
+    align-items: center;
+    text-align: center;
+ 
+   
+}
+
+.contacto{
+    padding-top: 25px;
+    display: flex;
+    padding-left: 680px;
+    align-items: center;
+    text-align: center;
+}
+
+footer h4{
+  
+    color: aliceblue;
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
